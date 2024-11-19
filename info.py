@@ -34,7 +34,7 @@ QR_CODE = environ.get('QR_CODE', 'https://envs.sh/ZNX.jpg')
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
 
 #this vars is for when heroku or koyeb acc get banned, then change this vars as your file to link bot name
-BIN_CHANNEL = int(environ.get('BIN_CHANNEL', '-1002337468642'))
+BIN_CHANNEL = int(environ.get('BIN_CHANNEL', '-1002402279066'))
 URL = environ.get('URL', 'https://alternative-haley-charliebots-f4e0c289.koyeb.app/')
 
 # verify system vars
